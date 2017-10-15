@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0df</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="green">#0f0</color>
+    <color name="textColor">#3e3c3d</color>
+    <color name="transacent">#00000000</color>
+    <color name="line_strong_divider">#ddd</color>
+    <color name="translance">#00000000</color>
+
+
+
+
+    <color name="translance_">#0e101010</color>
+
+
+</resources>

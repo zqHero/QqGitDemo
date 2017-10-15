@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hero.zhaoq.qqgitdemo.view.widget.MRecycleviewHeader
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:paddingLeft="50dp"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/tvRefresh"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="下拉刷新"
+            android:padding="5dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            />
+
+        <ImageView
+            android:id="@+id/ivArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/refresh_arrow"
+            />
+
+        <ImageView
+            android:id="@+id/ivSuccess"
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/header_refresh_success"
+            android:layout_toLeftOf="@id/tvRefresh"
+            />
+
+        <ImageView
+            android:id="@+id/refreshing_img"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/recycle_view_header_refreshing"
+            />
+
+    </RelativeLayout>
+
+</com.hero.zhaoq.qqgitdemo.view.widget.MRecycleviewHeader>

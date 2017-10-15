@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:paddingLeft="15dp"
+        android:gravity="center_vertical"
+        android:text="分组"
+        android:id="@+id/tv_section"
+        android:background="@color/line_strong_divider"
+        />
+
+    <RelativeLayout
+        android:id="@+id/item_"
+        android:layout_below="@id/tv_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        >
+        <com.hero.zhaoq.qqgitdemo.view.widget.MRoundImageView
+            android:id="@+id/head_img_ic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            app:type="circle"
+            app:borderColor="#ddf"
+            app:borderWidth="1dp"
+            android:src="@mipmap/ic_default_user_avter"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:layout_marginLeft="12dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/head_img_ic"
+            android:text="姓名"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/line_strong_divider"
+            android:layout_below="@id/head_img_ic"
+            android:layout_toRightOf="@id/head_img_ic"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
