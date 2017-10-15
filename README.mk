@@ -3,12 +3,11 @@ QQ聊天联系人界面效果仿写：
 
 ###1，先上效果图  ，因为未找到  比较好用的  gif录制工具 。所以上的都是静态图片：
 
-![这里写图片描述](http://img.blog.csdn.net/20171015145147728?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzIzMzA5Nw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![这里写图片描述](https://github.com/229457269/QqGitDemo/blob/master/img/2.png)
 
-![这里写图片描述](http://img.blog.csdn.net/20171015145210681?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzIzMzA5Nw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![这里写图片描述](https://github.com/229457269/QqGitDemo/blob/master/img/3.png)
 
-![这里写图片描述](http://img.blog.csdn.net/20171015145224100?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzIzMzA5Nw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-
+![这里写图片描述](https://github.com/229457269/QqGitDemo/blob/master/img/4.png)
 
 
 ### 2，代码：
