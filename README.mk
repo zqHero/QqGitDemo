@@ -413,7 +413,7 @@ public class MUpCaseListAdapter extends BaseAdapter {
 
 Maybe  你更需要下面的   地址：
 
-csdn:
+csdn:http://blog.csdn.net/u013233097/article/details/78241050
 
 github:https://github.com/229457269/QqGitDemo
 
